@@ -1,11 +1,11 @@
 
 
 
-COMMITCHANGES = True #commit changes | set False if you do not want to commit changes to files
+COMMITCHANGES = False #commit changes | set False if you do not want to commit changes to files
 
 #paths
 SCANPATH = 'G:/' #base folder path
-TEMPPATH = SCANPATH #+ 'Zz_temp/' #I normally dump images on my temp folder
+TEMPPATH = SCANPATH + 'Zz_temp/' #I normally dump images on my temp folder
 
 #add words to files
 ISNUDE = '_processed_' #nude images will be renamed to _processed_{existingImageName}.{existingExtension}
